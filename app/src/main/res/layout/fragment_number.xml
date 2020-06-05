@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4169e1"
+    tools:context=".NumberFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onlyNumber"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etNumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btnNumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrieve SMS" />
+
+    <TextView
+        android:id="@+id/tvNumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
